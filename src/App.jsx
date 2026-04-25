@@ -12,6 +12,11 @@ import bulletSolo from './assets/solo bikes/bullet.jpeg'
 import dio1 from './assets/solo bikes/dio.jpeg'
 import dio2 from './assets/solo bikes/dio2.jpeg'
 import hunterSolo from './assets/solo bikes/hunter.jpeg'
+import hunterSolo3 from './assets/solo bikes/hunter3.jpeg'
+import hunterSolo4 from './assets/solo bikes/hunter4.jpeg'
+import hunterSolo5 from './assets/solo bikes/hunter5.jpeg'
+import hunterSolo6 from './assets/solo bikes/hunter6.jpeg'
+import hunterSolo7 from './assets/solo bikes/hunter7.jpeg'
 import siteLogo from './assets/logo/logo.PNG'
 
 import groupActiva1 from './assets/group/group-activa1.jpeg'
@@ -32,7 +37,7 @@ const modelCatalog = [
     name: 'Activa 6G',
     category: 'Scooty',
     fuel: 'Petrol',
-    count: 12,
+    count: 22,
     images: [
       { src: activa1, label: 'Single photo' },
       { src: activa2, label: 'Single photo' },
@@ -48,7 +53,7 @@ const modelCatalog = [
     name: 'Dio',
     category: 'Scooty',
     fuel: 'Petrol',
-    count: 4,
+    count: 14,
     images: [
       { src: dio1, label: 'Single photo' },
       { src: dio2, label: 'Single photo' },
@@ -82,6 +87,12 @@ const modelCatalog = [
     count: 2,
     images: [
       { src: hunterSolo, label: 'Single photo' },
+
+      { src: hunterSolo3, label: 'Single photo' },
+      { src: hunterSolo4, label: 'Single photo' },
+      { src: hunterSolo5, label: 'Single photo' },
+      { src: hunterSolo6, label: 'Single photo' },
+      { src: hunterSolo7, label: 'Single photo' },
     ],
   },
   {
@@ -285,7 +296,7 @@ function App() {
 
         <div className="hero-stats">
           <article>
-            <p className="stat-number">21</p>
+            <p className="stat-number">55</p>
             <p>Total vehicles in fleet</p>
           </article>
           <article>
